@@ -1,0 +1,98 @@
+.timer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0f7f9;
+    font-family: Arial, sans-serif;
+}
+
+.timer-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.timer-circle {
+    background-image:url("https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png") ;
+    width: 700px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.time-display {
+    font-size: 32px;
+    color: #fff;
+    margin: 0;
+}
+
+.status {
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.controls-items
+{
+    display: flex;
+}
+
+.control-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.time-limit-label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.time-limit-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.limit-button {
+    background-color: #a0e8ef;
+    border: none;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.time-limit {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
